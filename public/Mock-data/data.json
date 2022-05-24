@@ -1,0 +1,26 @@
+{
+    "user":
+                [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage": "/shinchan.png",
+            "date": "10 Jan 2021"
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Shinchan unlimited",
+            "PostImage": "/shinchan2.png",            
+            "date": "6 Jan 2021"
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Shinchan Nohara",
+            "PostImage": "/shinchan3.png",
+            "date": "2 Jan 2021"
+            }
+            ]
+}

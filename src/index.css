@@ -1,0 +1,288 @@
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  border-bottom: 2px solid green;
+  width: 100%;
+  height: 10vh;
+  padding-bottom: 5px;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+
+}
+
+.logo {
+  float: left;
+  margin-left: 25px;
+  justify-content: center;
+  color: green;
+  margin-top: 15px;
+}
+
+.camera-logo {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 15px;
+  padding-right: 90px;
+}
+
+/* .card {
+  width: 40vw;
+  height: 50vh;
+  margin-left: 400px ;
+  margin-bottom: 34px;
+  border: 1px #dfdede solid;
+  border-radius: 5px;
+} */
+
+.container {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.card {
+  width: 45%;
+  height: 20%;
+  margin: auto;
+  /* margin-left: 35rem; */
+  margin-bottom: 50px;
+  border: 1px #a4a2a2 solid;
+  border-radius: 5px;
+}
+
+.card:first-child {
+  margin-top: 100px;
+}
+
+.name-location {
+  display: block;
+}
+
+h3 {
+  margin: 9px;
+  width: 40px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.location {
+  margin: 0px;
+  margin-left: 9px;
+  text-align: left;
+}
+
+/* p {
+  
+  color: gray;
+  float: left;
+  margin: 0px;
+  margin-left: 14px;
+} */
+
+img {
+  height: 30vh;
+  width: 100%;
+  margin: auto;
+}
+
+.options {
+  float: right;
+  height: 27px;
+  margin-right: 15px;
+  font-size: xx-large;
+  line-height: 5px;
+}
+
+.name-location h3 {
+  width: 100%;
+}
+
+/* .info {
+  display: inline-block;
+}
+
+.like-send-button {
+  float: left;
+  margin-left: 2%;
+  font-size: x-large;
+  line-height: 10px;
+  height: 30%;
+
+}
+
+.sendbutton {
+  transform: rotate();
+  -webkit-transform: rotate(-31deg);
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.likebutton {
+  font-size: 28px;
+}
+
+.date {
+  font-size: x-small;
+  color: gray;
+  float: right;
+  margin-right: 7px;
+}
+
+
+
+.likes {
+  float: left;
+  margin-right: 150px;
+  margin-top: 5px;
+  margin-left: 8px;
+  color: gray;
+  font-size: 11px;
+}
+
+.desc {
+  float: left;
+  margin-left: 8px;
+  font-weight: 500;
+} */
+
+/* ------------------------------- */
+.info {
+  height: 12vh;
+  display: inline-block;
+  width: 100%;
+}
+
+.like-send-button {
+  width: 40%;
+  height: 20%;
+  text-align: left;
+  padding-left: 10px;
+  font-size: xx-large;
+  line-height: 18px;
+  float: left;
+}
+
+.date {
+  width: 44%;
+  float: right;
+  height: 20%;
+  text-align: end;
+  color: gray;
+  font-size: small;
+  padding-right: 30px;
+  /* padding-right: inherit; */
+}
+
+.last {
+  width: 100%;
+  float: left;
+}
+
+
+
+.likes {
+  width: 50%;
+  text-align: left;
+  margin-top: 13px;
+  margin-left: 13px;
+  color: gray;
+  font-size: 12px;
+}
+
+.desc {
+  width: 100%;
+  text-align: left;
+  margin-left: 13px;
+  font-weight: 500;
+}
+
+/*  ----------------------------- */
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+}
+
+.landing-container {
+  width: 90%;
+  height: 90%;
+  border: 1px gray solid;
+  margin: auto;
+  display: flex;
+}
+
+.left-div {
+  width: 50%;
+  height: 100%;
+}
+
+.left-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-div-content {
+  margin-top: 30%;
+  /* margin: auto; */
+}
+
+.right-div {
+  display: block;
+  width: 50%;
+}
+
+.right-div-content a {
+  border: 1px solid;
+  font-size: xx-large;
+  text-decoration: none;
+  width: auto;
+  background-color: gray;
+  color: darkorange;
+}
+
+
+@media screen and (max-width: 760px) {
+  .site-container {
+    width: 100%;
+  }
+
+  .card {
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+
+}
+
+@media screen and (min-width: 761px) {
+  .site-container {
+    width: 100%;
+  }
+
+  .card {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    /* margin-left: 35rem; */
+    margin-bottom: 4rem;
+    border: 1px #dfdede solid;
+    border-radius: 5px;
+  }
+
+}
