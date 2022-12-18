@@ -73,7 +73,7 @@ const AddPost = () => {
           <h1 className="header-form ">UPLOAD POST</h1>
 
           <form
-            action="https://instaclone--backend.herokuapp.com/api/post/add"
+            action="https://instaclone-abhi.onrender.com/api/post/add"
             method="POST"
             className="post-form"
             onSubmit={handleSubmit}
